@@ -3,7 +3,7 @@ public class User {
     user name
     User Id
     Phone Number of User
-    Email Address
+    Email Addresses
     SSN
     Address
     Password

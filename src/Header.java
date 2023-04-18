@@ -1,7 +1,7 @@
 public class Header {
     /*
-    Accounts
-    User
+    Account
+    Users
     Deposit checks
     Account Transfer
     Accept Card Payments
