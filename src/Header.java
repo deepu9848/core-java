@@ -4,6 +4,6 @@ public class Header {
     User
     Deposit checks
     Account Transfer
-    Accept Card Payment
+    Accept Card Payments
      */
 }

@@ -1,6 +1,6 @@
 public class Accounts {
     /*
-    Credit Cards
+    Credit Cards payments
     Checking
     Saving & CDs
     Business
