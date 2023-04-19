@@ -1,6 +1,6 @@
 public class security {/*
-    password
-    Security Question
+    password (collection of characters)
+    Security Question (string)
 
 
 
