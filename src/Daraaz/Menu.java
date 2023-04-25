@@ -1,14 +1,20 @@
 package Daraaz;
-
 public class Menu {
+    //UUID
     /*
-    Menu womenFashion = new Menu();
-    womenFashion.menuId = 1;
-    womanFashion.menuName ="women's Fashion";
-    womenFashion.parentMenuId = 0;
-    womenFashion.isLeaf = false;
-
-     */
-
-
+    Menu Id (long)
+    Menu Name (String)
+    Parent Menu Id (long)
+    Is Leaf (boolean)
+    Slug (String)
+     */long MenuID;
+     String MenuName;
+     long ParentMenuId;
+     boolean IsLeaf;
+     String Slug;
 }
+
+
+
+
+
