@@ -1,6 +1,6 @@
 package Tdbank;
 
-public class Login {
+public class Users {
     /*
     Username
     Password

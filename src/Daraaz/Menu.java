@@ -1,5 +1,6 @@
 package Daraaz;
 public class Menu {
+    public class menuId;
     //UUID
     /*
     Menu Id (long)
