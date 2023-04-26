@@ -1,4 +1,4 @@
-package Daraaz;
+package daraaz;
 
 import java.util.List;
 
