@@ -8,5 +8,10 @@ public class User {
     Address (string)
     Password    (collection of characters)
     Sign    D: /Download / Image;
+    Account Number
+    Account holder address
+    Account Balance
+    Balance Transfer
+
      */
 }
