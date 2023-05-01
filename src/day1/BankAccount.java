@@ -1,6 +1,6 @@
 package day1;
 
-public class BankAccount {
+  public class BankAccount {
     /*States
     ->Account Number (String)
     ->Account Type (String)
@@ -13,11 +13,13 @@ public class BankAccount {
     ->Password (Collection of Chars)
     ->Account Balance (Double)
     ->Transfer Limit (Float)
+    ->SSN (String)
 
 
 
      */
     String accountNumber;
+    String accountType;
     String accountHoldersName;
     String routingNumber;
     byte[]signatureOfAccountHolder;
@@ -27,6 +29,8 @@ public class BankAccount {
     String password;
     double accountBalance;
     double transferLimit;
+    String ssn;
+
 
 
 }
