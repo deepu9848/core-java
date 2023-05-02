@@ -1,0 +1,36 @@
+Inheritance:
+    extend the functionality of a class by creating a subclass. it is is-"a" relationship.
+    example-class Drivers extends Persons because clsss driver inherit each and every object from parent class person.
+            class driver "is" a subclass of person
+
+Dependance:
+    It is strong relation that one class totally depend upon other class
+    one class can not carry out its work without other class
+     it is uses "-a" relationship
+    Example- one class is Building which uses a another class Room.
+
+ Aggregation:
+    this relation is one way relationship which is also called has "-a" relationship too.
+    one class contain reference to another class
+    Example- class Employee contains has object Address but address is itself class that
+    contains city country zipcode etc. so we can call employee has class address
+
+ Types of Inheritance
+  Java supports the following four types of inheritance:
+
+  1) Single Inheritance
+  in single inheritance, a sub-class is derived from only one super class.
+    Example-Class A derived from Class B
+  2)Multi-level Inheritance
+    Example-class A is derived from a class B which is also derived from another class C is called multi-level inheritance
+  3)Hierarchical Inheritance
+  If a number of classes are derived from a single base class, it is called hierarchical inheritance.
+    Example- Both class A and Class B derived from Class C
+  4)Hybrid Inheritance
+    Hybrid inheritance is the combination of two or more types of inheritance.
+     Example- class a derived from class B and class C and Class D derived from Class B.
+
+
+
+
+
