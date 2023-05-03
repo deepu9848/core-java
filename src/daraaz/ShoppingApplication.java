@@ -13,15 +13,9 @@ public class ShoppingApplication {
         clothing.menuId = 2;
         clothing.menuName = "Clothing";
         clothing.parentMenuId = 1;
-        clothing.isLeaf = fase;
+        clothing.isLeaf = false;
         clothing.slug = "women-clothimg";
 
-        Menu topsAndTshirts = new Menu;
-        topsAndTshirts.menuId =3;
-        topsAndTshirts.menuName = "Tops & T-Shirts";
-        topsAndTshirts.parentMenuId =2;
-        topsAndTshirts.isLeaf = true;
-        topsAndTshirts.slug = "women-top-tshirts";
 
 
     }

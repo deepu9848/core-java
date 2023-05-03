@@ -1,6 +1,6 @@
 package daraaz;
 public class Menu {
-    public class  menuId;
+    public int menuId;
 
 
         //UUID
@@ -12,10 +12,10 @@ public class Menu {
     Slug (String)
      */
         long MenuID;
-        String MenuName;
-        long ParentMenuId;
-        boolean IsLeaf;
-        String Slug;
+        public String menuName;
+        public int parentMenuId;
+        public boolean isLeaf;
+        public String slug;
     }
 
 
