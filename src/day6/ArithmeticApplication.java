@@ -15,5 +15,8 @@ public class ArithmeticApplication {
        boolean unique = true;
         System.out.println(randomNumber);
 
+
     }
-}
+
+    }
+
