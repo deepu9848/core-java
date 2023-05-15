@@ -1,7 +1,23 @@
 package assignment.shoppingmall;
 
-public class ShoppingMallCounterApp {
+/**
+ * * By the help of this application we can see how many people entered mall and ow many exited.
+ * @since 11
+ * @author Deepak
+ * @version 11.8.1
+ *
+ */
 
+public class ShoppingMallCounterApp {
+    /**
+     * call this constructor if anyone need to creat object of this class
+     */
+public ShoppingMallCounterApp(){
+    /**
+     * This is the entry point of shopping mall counter app
+     * @param args pass some value here to string
+     */
+}
     public static void main(String[] args) {
    //     Doors d1 =new Doors();
    //     d1.personEntered();

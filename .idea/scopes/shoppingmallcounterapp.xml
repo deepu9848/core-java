@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="shoppingmallcounterapp" pattern="src:shoppingmall.*" />
+</component>
