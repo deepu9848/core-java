@@ -34,10 +34,28 @@ int age;
         float science = sc.nextFloat();
         System.out.println("Please provide marks for Social:");
         float social = sc.nextFloat();
+        sc.close();
         float total = maths + english + computer + science + social;
         float percentage = (total/500)*100;
         System.out.println("percentage :" + percentage);
-    sc.close();
+
+        String output = String. format("the percentage of %s %.2f", name, percentage);
+        System.out.println(output);
+         if (percentage<40){
+            System.out.println("Filed");
+        }else if (percentage>=40 && percentage<60){
+            System.out.println("Third Div");
+        }else if (percentage>=60 && percentage<70){
+            System.out.println("Second Div");
+        }else if (percentage>=70 && percentage<80){
+            System.out.println("First Div");
+        }else if (percentage>=80 && percentage<100){
+            System.out.println("Distinction");
+        }else  {
+            System.out.println("Invalid Data");
+        }
+
+
 
     }
 }
