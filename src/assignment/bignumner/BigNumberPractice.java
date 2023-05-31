@@ -24,8 +24,7 @@ public class BigNumberPractice {
 
     int N = 345566778;
     BigInteger bigInteger = new BigInteger("N");
-    BigInteger pow = bigInteger.pow(BigInteger.valueOf(11));{
-        System.out.println(pow);
+    //BigInteger pow = bigInteger.pow(BigInteger.valueOf("N"));{
+       // System.out.println(pow);
 }
 
-}
