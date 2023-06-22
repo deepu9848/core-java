@@ -1,8 +1,10 @@
-package daraaz;
+package assignment.sum123;
+
+import daraaz.Menu;
 
 import java.util.ArrayList;
 
-public class ShoppingApplication {
+public class MenuList {
     public static void main(String[] args) {
         Menu womenFashion = new Menu();
         womenFashion.menuId = 1;
@@ -17,9 +19,11 @@ public class ShoppingApplication {
         clothing.parentMenuId = 1;
         clothing.isLeaf = false;
         clothing.slug = "women-clothimg";
+    }
+
+    ArrayList<MenuList> MenuList = new ArrayList<>();
 
 
-
-    }ArrayList<Menu> menuList = new ArrayList<>();
 
 }
+
