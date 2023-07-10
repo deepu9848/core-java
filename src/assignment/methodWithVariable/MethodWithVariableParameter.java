@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class MethodWithVariableParameter {
 
     public static void main(String[] args) {
-   // calculateSum(200,300);
+    calculateSum(200,300);
     calculateSum(1000);
     calculateSum(200, 300, 500, 1000);
     int a[]=new int[5];

@@ -20,8 +20,8 @@ int age;
         System.out.println(age);
         System.out.println(Gender.valueOf(gender.toUpperCase()));
 
-    Student student =new Student(name,  age, Gender.valueOf(gender.toUpperCase()));
-    System.out.println("Welcome" + student.getName() + "****");
+    //Student student =new Student(name,  age, Gender.valueOf(gender.toUpperCase()));
+   // System.out.println("Welcome" + student.getName() + "****");
     System.out.println("Please provide marks on subjects below");
 
         System.out.println("Please provide marks for Maths:");
